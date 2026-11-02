@@ -1,0 +1,25 @@
+VECTOR MODS store page - assets: source and redistribution
+
+All images in this folder are compressed copies (JPEG, reduced size) of
+images made by VECTOR MODS for its own products. They were drawn and rendered
+by the maker's own code from the maker's own vector shapes (line work, glow and
+dot patterns) and from the maker's own HTML/CSS (UI Kit screenshots).
+No photographs, no AI image generation, no third-party artwork.
+
+Sources (copied, originals untouched):
+  og.jpg, fui-cover.jpg ........ product cover of VECTOR FUI Pack
+  fui-sample.jpg ............... cover of VECTOR FUI Pack Free Sample
+  fui-themes.jpg ............... theme overview of VECTOR FUI Pack
+  uikit-*.jpg .................. screenshots of VECTOR UI Kit example screens
+  room-hud.jpg, ja-room.jpg .... VECTOR ROOM HUD sample images
+  stream-hud.jpg, ja-stream.jpg  VECTOR STREAM HUD sample images
+  ja-uikit.jpg ................. BOOTH cover of VECTOR UI Kit
+  favicon*, apple-touch-icon ... drawn for this page (corner marks and a V)
+
+Text drawn into some pixels uses Noto Sans / Noto Sans JP (SIL OFL 1.1, no
+restriction on images made with the font).
+
+Redistribution: (c) 2026 VECTOR MODS. Shown here only to advertise the
+products. Do not reuse or redistribute these images outside this page.
+Not an official Minecraft product. Not approved by or associated with Mojang
+or Microsoft.
