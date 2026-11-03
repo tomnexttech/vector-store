@@ -171,7 +171,7 @@
   </section>
 
   <section class="sec" id="packs" aria-labelledby="packs-title">
-    <div class="wrap">
+    <div class="wrap packs">
       <div class="ax" aria-hidden="true"><b>A</b></div>
       <div class="sh">
         <h2 class="h2" id="packs-title">Packs and kits</h2>
@@ -183,9 +183,12 @@
           <img src="assets/fui-themes.jpg" width="1000" height="750" alt="The 12 FUI Pack themes side by side: Plain, Clean, Apex, Draft, Mini, Monocle, Strata, Relay, Scan, Raptor, Ghost, Nano" loading="lazy" decoding="async">
         </a>
         <div class="info">
+          <div class="say">
           <h3 class="h3">VECTOR FUI Pack</h3>
           <p class="price">$29<small>USD</small></p>
-          <p>Transparent HUD overlays for video, streams and games. Twelve themes, each with a full 3840x2160 frame, loose parts, and two 4-second animated clips with alpha.</p>
+          <p>Transparent HUD overlays for video, streams and games. Each of the twelve themes comes as a full 3840x2160 frame, loose parts, and two 4-second clips with alpha.</p>
+          </div>
+          <div class="buy">
           <ul class="facts">
             <li>PNG and WebM in GLOW and ADD versions</li>
             <li>ProRes 4444 clips with alpha</li>
@@ -193,6 +196,7 @@
           </ul>
           <div class="cta"><a class="btn pri ext" href="https://tomnexttech.gumroad.com/l/vector-fui-pack" rel="noopener">Buy for $29 on Gumroad</a></div>
           <p class="alt">In Japan, <a class="lnk ext" href="https://vectormods.booth.pm/items/9040927" rel="noopener">¥2,980 on BOOTH</a></p>
+          </div>
         </div>
       </article>
 
@@ -201,9 +205,12 @@
           <img src="assets/uikit-dashboard.jpg" width="1200" height="750" alt="VECTOR UI Kit operations dashboard on dark glass: one large number, two arc gauges, a radar and a table" loading="lazy" decoding="async">
         </a>
         <div class="info">
+          <div class="say">
           <h3 class="h3">VECTOR UI Kit</h3>
           <p class="price">$39<small>USD</small></p>
-          <p>Glass panels, registration corners and instrument type for interfaces that have to read at a glance. Plain HTML/CSS, no framework.</p>
+          <p>Glass panels, registration corners and instrument type for screens that must read at a glance. Plain HTML and CSS, no framework.</p>
+          </div>
+          <div class="buy">
           <ul class="facts">
             <li>23 components, design tokens as CSS custom properties</li>
             <li>Dark glass and light drafting themes</li>
@@ -211,15 +218,16 @@
           </ul>
           <div class="cta"><a class="btn pri ext" href="https://tomnexttech.gumroad.com/l/vector-ui-kit" rel="noopener">Buy for $39 on Gumroad</a></div>
           <p class="alt">In Japan, <a class="lnk ext" href="https://vectormods.booth.pm/items/9081901" rel="noopener">¥3,980 on BOOTH</a></p>
+          </div>
         </div>
       </article>
 
-      <p class="pointer">Two smaller packs, ROOM HUD for CCFOLIA and STREAM HUD for OBS, are sold in yen on the <a class="lnk" href="ja/" hreflang="ja">Japanese page</a>. To see the work move first, <a class="lnk ext" href="https://youtu.be/TIPVX3ZOXBI" rel="noopener">watch VECTOR MODS on YouTube</a>, no sign-up needed.</p>
+      <p class="pointer">Two smaller packs, ROOM HUD for CCFOLIA and STREAM HUD for OBS, are sold in yen on the <a class="lnk" href="ja/" hreflang="ja">Japanese page</a>. To see the work in motion before you buy, <a class="lnk ext" href="https://youtu.be/TIPVX3ZOXBI" rel="noopener">watch it on YouTube</a>.</p>
     </div>
   </section>
 
   <section class="sec" id="free" aria-labelledby="free-title">
-    <div class="wrap">
+    <div class="wrap side">
       <div class="ax" aria-hidden="true"><b>B</b></div>
       <div class="sh">
         <h2 class="h2" id="free-title">Free to start</h2>
@@ -238,13 +246,13 @@
           </tr>
           <tr>
             <td class="item">VECTOR HUD</td>
-            <td class="use">A HUD mod for Minecraft.</td>
+            <td class="use">A cinematic HUD for Minecraft, drawn live in the game: compass, vitals, elytra route planning, a holo-map and ore scanning. Client-side only.</td>
             <td class="cost">Free</td>
             <td class="where"><a class="lnk ext" href="https://www.curseforge.com/minecraft/mc-mods/vector-hud" rel="noopener">CurseForge</a></td>
           </tr>
           <tr>
             <td class="item">VECTOR HOLOGRAM ITEMS</td>
-            <td class="use">A Minecraft mod from the same studio.</td>
+            <td class="use">51 holographic workshop blocks for Minecraft: transparent monitors, projectors, a crafting holo-table and a sentry turret. Install it on both server and client.</td>
             <td class="cost">Free</td>
             <td class="where"><a class="lnk ext" href="https://www.curseforge.com/minecraft/mc-mods/vector-items" rel="noopener">CurseForge</a></td>
           </tr>
@@ -254,11 +262,11 @@
   </section>
 
   <section class="sec" id="claude-code" aria-labelledby="cc-title">
-    <div class="wrap">
+    <div class="wrap cc">
       <div class="ax" aria-hidden="true"><b>C</b></div>
       <div class="sh">
         <h2 class="h2" id="cc-title">For Claude Code users</h2>
-        <p>A free permission gate, a book about running agents, and a desktop setup that is still being built.</p>
+        <p>A free permission gate, a field guide to running local agents, and a desktop setup still in development.</p>
       </div>
 
       <article class="entry" id="gate">
@@ -268,7 +276,7 @@
         </div>
         <div class="body">
           <p class="price">Free</p>
-          <p>A permission hook that sits in front of every Claude Code tool call. No LLM in the loop: plain Python, standard library only, so the rules are short enough to read and argue with. Every decision is appended to a log where each line carries the SHA-256 of the line before it.</p>
+          <p>A permission hook in front of every Claude Code tool call. There is no LLM in the loop, only plain Python on the standard library, so the rules are short enough to read and argue with. Every decision goes into a log where each line carries the SHA-256 of the line before it.</p>
           <div class="three">
             <div class="d"><b>Deny</b><span>Reading secrets, formatting a disk, writing the registry, changing the gate itself</span></div>
             <div class="a"><b>Ask</b><span>Deleting, git push, overwriting with &gt;, sending data off the machine</span></div>
@@ -443,7 +451,7 @@
       <a href="https://youtu.be/TIPVX3ZOXBI" rel="noopener">YouTube</a>
       <a href="https://www.patreon.com/VECTORMODS" rel="noopener">Patreon</a>
     </div>
-    <p>VECTOR MODS is an anonymous studio that makes HUD art and tools. It also makes the VECTOR HUD mod for Minecraft (free on CurseForge).</p>
+    <p>VECTOR MODS is an anonymous studio that makes HUD art and tools, including two free Minecraft mods on CurseForge.</p>
     <p>Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</p>
     <p>© 2026 VECTOR MODS. All rights reserved except as licensed with each product.</p>
   </div>
